@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB0FB641363F54A00DAFB77 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB0FB631363F54A00DAFB77 /* Cocoa.framework */; };
+		0EB0FB661363F54A00DAFB77 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB0FB651363F54A00DAFB77 /* MacRuby.framework */; };
+		0EB0FB6D1363F54A00DAFB77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FB6B1363F54A00DAFB77 /* InfoPlist.strings */; };
+		0EB0FB701363F54A00DAFB77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0FB6F1363F54A00DAFB77 /* main.m */; };
+		0EB0FB741363F54B00DAFB77 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FB721363F54B00DAFB77 /* MainMenu.xib */; };
+		0EB0FB771363F54B00DAFB77 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FB761363F54B00DAFB77 /* rb_main.rb */; };
+		0EB0FB791363F54B00DAFB77 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FB781363F54B00DAFB77 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EB0FB5F1363F54900DAFB77 /* Bee Pilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bee Pilot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB0FB631363F54A00DAFB77 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0EB0FB651363F54A00DAFB77 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		0EB0FB6A1363F54A00DAFB77 /* Bee Pilot-Info.plist */ = {isa = PBXFileReference; path = "Bee Pilot-Info.plist"; sourceTree = "<group>"; };
+		0EB0FB6C1363F54A00DAFB77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EB0FB6E1363F54A00DAFB77 /* Bee Pilot-Prefix.pch */ = {isa = PBXFileReference; path = "Bee Pilot-Prefix.pch"; sourceTree = "<group>"; };
+		0EB0FB6F1363F54A00DAFB77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EB0FB731363F54B00DAFB77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0EB0FB761363F54B00DAFB77 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		0EB0FB781363F54B00DAFB77 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EB0FB5C1363F54800DAFB77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB0FB641363F54A00DAFB77 /* Cocoa.framework in Frameworks */,
+				0EB0FB661363F54A00DAFB77 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EB0FB541363F54800DAFB77 = {
+			isa = PBXGroup;
+			children = (
+				0EB0FB681363F54A00DAFB77 /* Bee Pilot */,
+				0EB0FB621363F54900DAFB77 /* Frameworks */,
+				0EB0FB601363F54900DAFB77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EB0FB601363F54900DAFB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0FB5F1363F54900DAFB77 /* Bee Pilot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EB0FB621363F54900DAFB77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0FB631363F54A00DAFB77 /* Cocoa.framework */,
+				0EB0FB651363F54A00DAFB77 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EB0FB681363F54A00DAFB77 /* Bee Pilot */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0FB781363F54B00DAFB77 /* AppDelegate.rb */,
+				0EB0FB711363F54B00DAFB77 /* Resources */,
+				0EB0FB751363F54B00DAFB77 /* Other Sources */,
+				0EB0FB691363F54A00DAFB77 /* Supporting Files */,
+			);
+			path = "Bee Pilot";
+			sourceTree = "<group>";
+		};
+		0EB0FB691363F54A00DAFB77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0FB6A1363F54A00DAFB77 /* Bee Pilot-Info.plist */,
+				0EB0FB6B1363F54A00DAFB77 /* InfoPlist.strings */,
+				0EB0FB6E1363F54A00DAFB77 /* Bee Pilot-Prefix.pch */,
+				0EB0FB6F1363F54A00DAFB77 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EB0FB711363F54B00DAFB77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0FB721363F54B00DAFB77 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0EB0FB751363F54B00DAFB77 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0EB0FB761363F54B00DAFB77 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		0EB0FB671363F54A00DAFB77 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 0EB0FB7F1363F54B00DAFB77 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		0EB0FB5E1363F54800DAFB77 /* Bee Pilot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EB0FB7C1363F54B00DAFB77 /* Build configuration list for PBXNativeTarget "Bee Pilot" */;
+			buildPhases = (
+				0EB0FB5B1363F54800DAFB77 /* Sources */,
+				0EB0FB5C1363F54800DAFB77 /* Frameworks */,
+				0EB0FB5D1363F54800DAFB77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bee Pilot";
+			productName = "Bee Pilot";
+			productReference = 0EB0FB5F1363F54900DAFB77 /* Bee Pilot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EB0FB561363F54800DAFB77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Ananasblau.com;
+			};
+			buildConfigurationList = 0EB0FB591363F54800DAFB77 /* Build configuration list for PBXProject "Bee Pilot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0EB0FB541363F54800DAFB77;
+			productRefGroup = 0EB0FB601363F54900DAFB77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EB0FB5E1363F54800DAFB77 /* Bee Pilot */,
+				0EB0FB671363F54A00DAFB77 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EB0FB5D1363F54800DAFB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB0FB6D1363F54A00DAFB77 /* InfoPlist.strings in Resources */,
+				0EB0FB741363F54B00DAFB77 /* MainMenu.xib in Resources */,
+				0EB0FB771363F54B00DAFB77 /* rb_main.rb in Resources */,
+				0EB0FB791363F54B00DAFB77 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EB0FB5B1363F54800DAFB77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB0FB701363F54A00DAFB77 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EB0FB6B1363F54A00DAFB77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EB0FB6C1363F54A00DAFB77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0EB0FB721363F54B00DAFB77 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EB0FB731363F54B00DAFB77 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EB0FB7A1363F54B00DAFB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0EB0FB7B1363F54B00DAFB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0EB0FB7D1363F54B00DAFB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bee Pilot/Bee Pilot-Prefix.pch";
+				INFOPLIST_FILE = "Bee Pilot/Bee Pilot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0EB0FB7E1363F54B00DAFB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bee Pilot/Bee Pilot-Prefix.pch";
+				INFOPLIST_FILE = "Bee Pilot/Bee Pilot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0EB0FB801363F54B00DAFB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0EB0FB811363F54B00DAFB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EB0FB591363F54800DAFB77 /* Build configuration list for PBXProject "Bee Pilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB0FB7A1363F54B00DAFB77 /* Debug */,
+				0EB0FB7B1363F54B00DAFB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EB0FB7C1363F54B00DAFB77 /* Build configuration list for PBXNativeTarget "Bee Pilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB0FB7D1363F54B00DAFB77 /* Debug */,
+				0EB0FB7E1363F54B00DAFB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0EB0FB7F1363F54B00DAFB77 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB0FB801363F54B00DAFB77 /* Debug */,
+				0EB0FB811363F54B00DAFB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EB0FB561363F54800DAFB77 /* Project object */;
+}

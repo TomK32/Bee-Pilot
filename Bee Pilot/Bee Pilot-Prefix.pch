@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Bee Pilot' target in the 'Bee Pilot' project
+//
+
+#ifdef __OBJC__
+  #import <Cocoa/Cocoa.h>
+#endif
