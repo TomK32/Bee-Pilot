@@ -17,6 +17,9 @@
 		0EB0FB831363F57D00DAFB77 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FB821363F57D00DAFB77 /* README */; };
 		0EB0FB851363FB9400DAFB77 /* BeePilotGame.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FB841363FB9400DAFB77 /* BeePilotGame.rb */; };
 		0EB0FB8F1363FF7E00DAFB77 /* GardenView.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FB8E1363FF7E00DAFB77 /* GardenView.rb */; };
+		0EB0FB91136400E700DAFB77 /* Player.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FB90136400E700DAFB77 /* Player.rb */; };
+		0EB0FB93136400F200DAFB77 /* Bee.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FB92136400F200DAFB77 /* Bee.rb */; };
+		0EB0FB95136401A300DAFB77 /* Hive.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FB94136401A300DAFB77 /* Hive.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		0EB0FB821363F57D00DAFB77 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		0EB0FB841363FB9400DAFB77 /* BeePilotGame.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = BeePilotGame.rb; sourceTree = "<group>"; };
 		0EB0FB8E1363FF7E00DAFB77 /* GardenView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = GardenView.rb; sourceTree = "<group>"; };
+		0EB0FB90136400E700DAFB77 /* Player.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Player.rb; sourceTree = "<group>"; };
+		0EB0FB92136400F200DAFB77 /* Bee.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Bee.rb; sourceTree = "<group>"; };
+		0EB0FB94136401A300DAFB77 /* Hive.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Hive.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +89,10 @@
 				0EB0FB751363F54B00DAFB77 /* Other Sources */,
 				0EB0FB691363F54A00DAFB77 /* Supporting Files */,
 				0EB0FB841363FB9400DAFB77 /* BeePilotGame.rb */,
+				0EB0FB94136401A300DAFB77 /* Hive.rb */,
 				0EB0FB8E1363FF7E00DAFB77 /* GardenView.rb */,
+				0EB0FB90136400E700DAFB77 /* Player.rb */,
+				0EB0FB92136400F200DAFB77 /* Bee.rb */,
 			);
 			path = "Bee Pilot";
 			sourceTree = "<group>";
@@ -189,6 +198,9 @@
 				0EB0FB831363F57D00DAFB77 /* README in Resources */,
 				0EB0FB851363FB9400DAFB77 /* BeePilotGame.rb in Resources */,
 				0EB0FB8F1363FF7E00DAFB77 /* GardenView.rb in Resources */,
+				0EB0FB91136400E700DAFB77 /* Player.rb in Resources */,
+				0EB0FB93136400F200DAFB77 /* Bee.rb in Resources */,
+				0EB0FB95136401A300DAFB77 /* Hive.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
