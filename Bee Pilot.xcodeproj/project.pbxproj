@@ -14,19 +14,21 @@
 		0EB0FB741363F54B00DAFB77 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FB721363F54B00DAFB77 /* MainMenu.xib */; };
 		0EB0FB771363F54B00DAFB77 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FB761363F54B00DAFB77 /* rb_main.rb */; };
 		0EB0FB791363F54B00DAFB77 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FB781363F54B00DAFB77 /* AppDelegate.rb */; };
+		0EB0FB831363F57D00DAFB77 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0EB0FB821363F57D00DAFB77 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0EB0FB5F1363F54900DAFB77 /* Bee Pilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bee Pilot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB0FB631363F54A00DAFB77 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0EB0FB651363F54A00DAFB77 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
-		0EB0FB6A1363F54A00DAFB77 /* Bee Pilot-Info.plist */ = {isa = PBXFileReference; path = "Bee Pilot-Info.plist"; sourceTree = "<group>"; };
+		0EB0FB6A1363F54A00DAFB77 /* Bee Pilot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bee Pilot-Info.plist"; sourceTree = "<group>"; };
 		0EB0FB6C1363F54A00DAFB77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0EB0FB6E1363F54A00DAFB77 /* Bee Pilot-Prefix.pch */ = {isa = PBXFileReference; path = "Bee Pilot-Prefix.pch"; sourceTree = "<group>"; };
+		0EB0FB6E1363F54A00DAFB77 /* Bee Pilot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bee Pilot-Prefix.pch"; sourceTree = "<group>"; };
 		0EB0FB6F1363F54A00DAFB77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0EB0FB731363F54B00DAFB77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0EB0FB761363F54B00DAFB77 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		0EB0FB781363F54B00DAFB77 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		0EB0FB821363F57D00DAFB77 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		0EB0FB541363F54800DAFB77 = {
 			isa = PBXGroup;
 			children = (
+				0EB0FB821363F57D00DAFB77 /* README */,
 				0EB0FB681363F54A00DAFB77 /* Bee Pilot */,
 				0EB0FB621363F54900DAFB77 /* Frameworks */,
 				0EB0FB601363F54900DAFB77 /* Products */,
@@ -177,6 +180,7 @@
 				0EB0FB741363F54B00DAFB77 /* MainMenu.xib in Resources */,
 				0EB0FB771363F54B00DAFB77 /* rb_main.rb in Resources */,
 				0EB0FB791363F54B00DAFB77 /* AppDelegate.rb in Resources */,
+				0EB0FB831363F57D00DAFB77 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
