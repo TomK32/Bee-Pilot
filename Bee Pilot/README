@@ -1,0 +1,2 @@
+coffee -b -w -c -o game/ coffee/*coffee
+rake jasmine
