@@ -1,10 +1,11 @@
 var Game;
 Game = (function() {
-  function Game() {}
-  Game.garden_view;
-  Game.hive;
-  Game.player;
-  Game.timer;
+  function Game() {
+    this.garden_view;
+    this.hives = [];
+    this.player;
+    this.timer;
+  }
   Game.prototype.startTimer = function() {
     this.timer;
     return this;
@@ -13,6 +14,8 @@ Game = (function() {
     this.timer;
     return this;
   };
-  Game.prototype.tick = function() {};
+  Game.prototype.tick = function() {
+    return this;
+  };
   return Game;
 })();

@@ -3,8 +3,8 @@
   Copyright 2011 Ananasblau.com. All rights reserved.
 */var Bee;
 Bee = (function() {
-  function Bee(point) {
-    this.position = point || NSPoint["new"](0, 0);
+  function Bee(position) {
+    this.position = position;
     this.path;
     this.speed = 1;
     this.cargo = [];

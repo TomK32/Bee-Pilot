@@ -4,8 +4,8 @@
 ###
 
 class Bee
-  constructor: (point) ->
-    @position = point || NSPoint.new(0,0)
+  constructor: (position) ->
+    @position = position
     # an array of points that the Bee moves towards
     @path
     @speed = 1

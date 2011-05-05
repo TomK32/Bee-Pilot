@@ -1,11 +1,11 @@
 #  Created by Thomas R. Koll on 24.04.11.
 #  Copyright 2011 Ananasblau.com. All rights reserved.
-
-class Game: ->
-  @garden_view
-  @hive
-  @player
-  @timer
+class Game
+  constructor: ->
+    @garden_view
+    @hives = []
+    @player
+    @timer
 
   startTimer: ->
     @timer
@@ -14,4 +14,4 @@ class Game: ->
     @timer
     @
   tick: ->
-    #
+    @

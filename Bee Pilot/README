@@ -1,2 +1,3 @@
+
 coffee -b -w -c -o game/ coffee/*coffee
-rake jasmine
+coffee -b -c -w -o spec/javascripts/ spec/coffee/ & rake jasmine
